@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-solutions',
   imports: [],
   templateUrl: './solutions.html',
-  styleUrl: './solutions.scss',
+  styleUrls: ['./solutions.scss'],
   standalone: true,
 })
 export class Solutions {

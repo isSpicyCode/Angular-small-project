@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-aide',
   imports: [],
   templateUrl: './aide.html',
-  styleUrl: './aide.scss',
+  styleUrls: ['./aide.scss'],
   standalone: true,
 })
 export class Aide {

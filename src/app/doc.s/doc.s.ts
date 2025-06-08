@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-docs',
   imports: [],
   templateUrl: './doc.s.html',
-  styleUrl: './doc.s.scss',
+  styleUrls: ['./doc.s.scss'],
   standalone: true,
 })
 export class DocS {
