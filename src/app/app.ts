@@ -9,6 +9,9 @@ import { RouterOutlet } from '@angular/router';
   imports: [RouterOutlet],
 })
 export class App {
+handleDelete(arg0: any) {
+throw new Error('Method not implemented.');
+}
       afficherAlert() {
       window.alert('Bouton cliqué !');
   }
