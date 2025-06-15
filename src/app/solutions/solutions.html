@@ -1,3 +1,16 @@
 <div class="max-w-4xl m-auto">
-    <div class="bg-blue-600 w-full h-95">Solutions Component</div>
+
+@defer (on viewport) {
+<!--    <div class="bg-blue-600 w-full h-95">Solutions Component</div>-->
+    <img priority class="rounded-lg" ngSrc="https://plus.unsplash.com/premium_photo-1676654935937-109c7936b8ff?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="1000" height="200">
+} @placeholder {
+  <div>Contenu à venir...</div>
+} @loading (after 100ms; minimum 5000ms) {
+
+} @error {
+  <p>Erreur de chargement</p>
+}
+<div class="text-lg mt-5">
+  <p><span class="italic font-bold">NgOptimizedImage</span> est une directive qui optimise automatiquement le chargement des images en appliquant plusieurs techniques d'optimisation</p>
+</div>
 </div>

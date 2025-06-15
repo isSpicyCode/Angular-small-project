@@ -1,19 +1,18 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import {Parent} from './parent/parent';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, Parent],
 })
 export class App {
-handleDelete(arg0: any) {
-throw new Error('Method not implemented.');
-}
+
       afficherAlert() {
       window.alert('Bouton cliqué !');
   }
-  tilte: string = 'Bienvenue dans mon projet Angular';
+  title: string = 'Bienvenue dans mon projet Angular';
 }

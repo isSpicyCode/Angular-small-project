@@ -1,11 +1,16 @@
- <h1 class="text-center text-2xl">{{tilte}}</h1>
+ <h1 class="text-center text-2xl">{{title}}</h1>
 
 <button
   class="px-4 py-2 bg-amber-600 text-white rounded hover:bg-amber-700 transition m-4"
   (click)="afficherAlert()">
   Afficher l’alerte
 </button>
-
+ <button
+   class="btn-red"
+   (click)="afficherAlert()">
+   btn custom alert
+ </button>
+ <app-parent></app-parent>
 <div class="max-w-full mb-10">
   <nav>
     <ul class="flex justify-center flex-col md:flex-row gap-4 text-base md:text-lg md:font-semibold">
@@ -13,7 +18,11 @@
       <li><a href="prix">Prix</a></li>
       <li><a href="docs">Docs</a></li>
       <li><a href="aide">Aide</a></li>
+      <li><a href="compteur">Compteur</a></li>
     </ul>
   </nav>
 </div>
+
 <router-outlet></router-outlet>
+
+
